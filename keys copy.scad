@@ -9,7 +9,7 @@ include <./includes.scad>
 
 
 // example key
-diom_65MK_default("cherry") key();
+tkl_default("cherry") key();
 
 // example row
 /* for (x = [0:1:4]) {

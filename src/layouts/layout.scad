@@ -48,7 +48,7 @@ module layout(list, profile="dcs", legends=undef, front_legends=undef, row_sculp
           $row = row;
           $column = column;
 
-            if (key_length == 6.25) {
+            if ((key_length == 6.25) || (key_length == 7)) {
               spacebar() {
                 if ($children) {
                   children();
@@ -56,7 +56,7 @@ module layout(list, profile="dcs", legends=undef, front_legends=undef, row_sculp
                   key();
                 }
               }
-            } else if (key_length == 2.25) {
+            }else if (key_length == 2.25) {
               lshift() {
                 if ($children) {
                   children();

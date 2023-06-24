@@ -9,7 +9,8 @@ include <./includes.scad>
 
 
 // example key
-diom_65MK_default("cherry") key();
+diom_65MK_default("dsa") key();
+//dsa_row(2) key();
 
 // example row
 /* for (x = [0:1:4]) {
@@ -17,4 +18,4 @@ diom_65MK_default("cherry") key();
 } */
 
 // example layout
-/* preonic_default("dcs") key(); */
+//preonic_default("dsa") key();
